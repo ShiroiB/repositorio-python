@@ -1,0 +1,7 @@
+nome = str(input('digite o seu nome:\n')).strip()
+n2 = nome.upper()
+print(n2)
+n3 = nome.lower()
+print(n3)
+print('seu nome tem {}'.format(len(nome)-nome.count(' ')))
+print('seu primero nome tem {}'.format(nome.find(" ")))
