@@ -1,0 +1,12 @@
+n1=float(input('digite um numero: '))
+n2=float(input('digite um numero: '))
+n3=float(input('digite um numero: '))
+if (n2 - n3) < n1 < n2 + n3 and (n1 - n3) < n2 < n1 + n3 and ( n1 - n2 ) < n3< n1 + n2:
+if n1==n2==n3:
+     print('É um triângulo equilatero, seus lados são iguais.')
+elif n1==n2 or n2==n3 or n1==n3:
+    print('É um triângulo isósceles, possui dois lados iguais.')
+elif n1!=n2 or n2!=n3 or n1!=n3:
+    print('É um triângulo escaleno,todos os lados são diferentes.')
+else:
+    print('Não forma um triângulo')
